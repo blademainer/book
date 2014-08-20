@@ -1,0 +1,4 @@
+
+{% loop_directory directory:book iterator:book filter:* sort:descending %}
+   {{ book }}<p>
+{% endloop_directory %}
