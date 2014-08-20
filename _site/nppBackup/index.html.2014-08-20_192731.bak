@@ -1,3 +1,0 @@
-{% loop_directory directory:book iterator:image filter:*.jpg sort:descending %}
-   <img src="{{ image }}" />
-{% endloop_directory %}
