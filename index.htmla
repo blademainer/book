@@ -1,0 +1,3 @@
+{% loop_directory directory:files iterator:file filter:* sort:descending %}
+   {{ file }}<p>
+{% endloop_directory %}
